@@ -28,6 +28,7 @@ This commands includes
 • Other IP Commands e.g. show ip route etc.
 <BR>
 ## PROGRAM:
+
 ### CLIENT:
 ```
  import socket 
@@ -43,6 +44,7 @@ c.send(str(ping(hostname, verbose=False)).encode())
 except KeyError: 
 c.send("Not Found".encode())
 ```
+
 ### SERVER:
 ```
 import socket 
